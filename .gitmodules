@@ -1,0 +1,4 @@
+[submodule "Vendor/macOS-TVRemote"]
+	path = Vendor/macOS-TVRemote
+	url = https://github.com/EduardoCusihuaman/macos-tv-remote.git
+	branch = main

@@ -1,0 +1,27 @@
+name: ControleTVMacOS
+options:
+  bundleIdPrefix: com.controletv
+  deploymentTarget:
+    macOS: "13.0"
+packages:
+  AndroidTVRemoteControl:
+    path: Vendor/macOS-TVRemote/Vendor/AndroidTVRemoteControl
+targets:
+  ControleTVMacOS:
+    type: application
+    platform: macOS
+    deploymentTarget: "13.0"
+    sources:
+      - path: Sources/ControleTVMacOS
+    dependencies:
+      - package: AndroidTVRemoteControl
+        product: AndroidTVRemoteControl
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.controletv.macos
+        INFOPLIST_FILE: Sources/ControleTVMacOS/Info.plist
+        CODE_SIGNING_ALLOWED: NO
+        CODE_SIGNING_REQUIRED: NO
+        CODE_SIGN_IDENTITY: "-"
+    entitlements:
+      path: Sources/ControleTVMacOS/ControleTVMacOS.entitlements

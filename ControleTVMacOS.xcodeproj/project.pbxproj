@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0245F75DCD0C2C64E9D53509 /* ControleTVMacOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F02EB542BCFA6524B07D3A /* ControleTVMacOSApp.swift */; };
+		075EF1A54536876B464F95F7 /* AndroidTVRemoteClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D98AA8C4CAE915696DC4603 /* AndroidTVRemoteClient.swift */; };
+		2FF87CB4A9532300F3BDF410 /* AndroidTVRemoteControl in Frameworks */ = {isa = PBXBuildFile; productRef = 87179B1C8BBF01B2C3461191 /* AndroidTVRemoteControl */; };
+		3389B97E53F0F4425B2D4C8C /* RemoteAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87FA862EF664E0E7246E1C /* RemoteAdapter.swift */; };
+		3A95123C30FC76134BB2ABC2 /* AndroidTVIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9088E4192151C1EDB253A3C0 /* AndroidTVIdentity.swift */; };
+		4B104E09E872A01FE330D61F /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A1D091AB6DA9011DB75A09 /* KeychainStore.swift */; };
+		60A92C3D3BE2EEB3079A3661 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53958C03C930F4E7E71AA3C /* ContentView.swift */; };
+		6CC33EC9B5F38716D3A4EAF2 /* DiscoveryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154330EC2AC31E171F9B7085 /* DiscoveryService.swift */; };
+		79ABB5C55EB4EB7CFD84A324 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617140962B19C10503465D30 /* Models.swift */; };
+		A7CC8554CCA2808A0BC09C18 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167F0431DFCAA1A59CB2E893 /* AppModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D98AA8C4CAE915696DC4603 /* AndroidTVRemoteClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndroidTVRemoteClient.swift; sourceTree = "<group>"; };
+		154330EC2AC31E171F9B7085 /* DiscoveryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryService.swift; sourceTree = "<group>"; };
+		167F0431DFCAA1A59CB2E893 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		18F02EB542BCFA6524B07D3A /* ControleTVMacOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControleTVMacOSApp.swift; sourceTree = "<group>"; };
+		5F53D08F0CE0D8B0DF491332 /* AndroidTVRemoteControl */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AndroidTVRemoteControl; path = "Vendor/macOS-TVRemote/Vendor/AndroidTVRemoteControl"; sourceTree = SOURCE_ROOT; };
+		617140962B19C10503465D30 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		9088E4192151C1EDB253A3C0 /* AndroidTVIdentity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndroidTVIdentity.swift; sourceTree = "<group>"; };
+		A639C3CAD30023DD7B91F9EF /* ControleTVMacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ControleTVMacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61F0294E75AE37CF9EAAA4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CA87FA862EF664E0E7246E1C /* RemoteAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteAdapter.swift; sourceTree = "<group>"; };
+		D3A1D091AB6DA9011DB75A09 /* KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStore.swift; sourceTree = "<group>"; };
+		E53958C03C930F4E7E71AA3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EBEB2BF1FD79ACD7A3C0C6B4 /* ControleTVMacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ControleTVMacOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEA9EABC9FBCC3D324498CB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF87CB4A9532300F3BDF410 /* AndroidTVRemoteControl in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09143B96411984A302D58E90 = {
+			isa = PBXGroup;
+			children = (
+				8025D28F156A0CB7DD930963 /* ControleTVMacOS */,
+				A1DAD328CD7D9D8E9DCD5A74 /* Packages */,
+				9943CA1F4D4CD3511811DC2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8025D28F156A0CB7DD930963 /* ControleTVMacOS */ = {
+			isa = PBXGroup;
+			children = (
+				9088E4192151C1EDB253A3C0 /* AndroidTVIdentity.swift */,
+				0D98AA8C4CAE915696DC4603 /* AndroidTVRemoteClient.swift */,
+				167F0431DFCAA1A59CB2E893 /* AppModel.swift */,
+				E53958C03C930F4E7E71AA3C /* ContentView.swift */,
+				EBEB2BF1FD79ACD7A3C0C6B4 /* ControleTVMacOS.entitlements */,
+				18F02EB542BCFA6524B07D3A /* ControleTVMacOSApp.swift */,
+				154330EC2AC31E171F9B7085 /* DiscoveryService.swift */,
+				C61F0294E75AE37CF9EAAA4A /* Info.plist */,
+				D3A1D091AB6DA9011DB75A09 /* KeychainStore.swift */,
+				617140962B19C10503465D30 /* Models.swift */,
+				CA87FA862EF664E0E7246E1C /* RemoteAdapter.swift */,
+			);
+			name = ControleTVMacOS;
+			path = Sources/ControleTVMacOS;
+			sourceTree = "<group>";
+		};
+		9943CA1F4D4CD3511811DC2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A639C3CAD30023DD7B91F9EF /* ControleTVMacOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1DAD328CD7D9D8E9DCD5A74 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				5F53D08F0CE0D8B0DF491332 /* AndroidTVRemoteControl */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F0BF241FC628709D19F4708 /* ControleTVMacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F79256DACCB171E993BC284 /* Build configuration list for PBXNativeTarget "ControleTVMacOS" */;
+			buildPhases = (
+				236BEE4BD195570182CA3B1D /* Sources */,
+				FEA9EABC9FBCC3D324498CB7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ControleTVMacOS;
+			packageProductDependencies = (
+				87179B1C8BBF01B2C3461191 /* AndroidTVRemoteControl */,
+			);
+			productName = ControleTVMacOS;
+			productReference = A639C3CAD30023DD7B91F9EF /* ControleTVMacOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25C3705A0B0323E9FBE1E040 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 0BAA218751E740186F275493 /* Build configuration list for PBXProject "ControleTVMacOS" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 09143B96411984A302D58E90;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				8FCB0CD4A4591D2EF397953D /* XCLocalSwiftPackageReference "Vendor/macOS-TVRemote/Vendor/AndroidTVRemoteControl" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9943CA1F4D4CD3511811DC2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F0BF241FC628709D19F4708 /* ControleTVMacOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		236BEE4BD195570182CA3B1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A95123C30FC76134BB2ABC2 /* AndroidTVIdentity.swift in Sources */,
+				075EF1A54536876B464F95F7 /* AndroidTVRemoteClient.swift in Sources */,
+				A7CC8554CCA2808A0BC09C18 /* AppModel.swift in Sources */,
+				60A92C3D3BE2EEB3079A3661 /* ContentView.swift in Sources */,
+				0245F75DCD0C2C64E9D53509 /* ControleTVMacOSApp.swift in Sources */,
+				6CC33EC9B5F38716D3A4EAF2 /* DiscoveryService.swift in Sources */,
+				4B104E09E872A01FE330D61F /* KeychainStore.swift in Sources */,
+				79ABB5C55EB4EB7CFD84A324 /* Models.swift in Sources */,
+				3389B97E53F0F4425B2D4C8C /* RemoteAdapter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		461FBFED9B94ABCB3701C104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_ENTITLEMENTS = Sources/ControleTVMacOS/ControleTVMacOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Sources/ControleTVMacOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.controletv.macos;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D64862EB8A1744DA1B4DCCDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E5EF8B3A112F2D5B3FBDC084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_ENTITLEMENTS = Sources/ControleTVMacOS/ControleTVMacOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Sources/ControleTVMacOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.controletv.macos;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F7378097623B5DC0FFC724CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BAA218751E740186F275493 /* Build configuration list for PBXProject "ControleTVMacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D64862EB8A1744DA1B4DCCDE /* Debug */,
+				F7378097623B5DC0FFC724CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6F79256DACCB171E993BC284 /* Build configuration list for PBXNativeTarget "ControleTVMacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5EF8B3A112F2D5B3FBDC084 /* Debug */,
+				461FBFED9B94ABCB3701C104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		8FCB0CD4A4591D2EF397953D /* XCLocalSwiftPackageReference "Vendor/macOS-TVRemote/Vendor/AndroidTVRemoteControl" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "Vendor/macOS-TVRemote/Vendor/AndroidTVRemoteControl";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		87179B1C8BBF01B2C3461191 /* AndroidTVRemoteControl */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AndroidTVRemoteControl;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 25C3705A0B0323E9FBE1E040 /* Project object */;
+}
